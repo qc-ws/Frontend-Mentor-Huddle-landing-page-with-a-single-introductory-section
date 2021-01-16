@@ -1,0 +1,61 @@
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(../media/background/bg-desktop.svg);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-wrapper {
+    width: 1200px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .main-wrapper>.hero-wrapper {
+    width: 660px;
+    max-width: 750px;
+  }
+
+  .main-wrapper>.hero-wrapper>.hero-logo img {
+    width: 235px;
+  }
+
+  .main-wrapper>.hero-wrapper>.hero-img img {
+    margin: 100px 0 0 0;
+    width: 660px;
+    max-width: 750px;
+  }
+
+  .main-wrapper>.description-wrapper {
+    width: 550px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-right: 40px;
+    padding: 60px;
+  }
+
+  .main-wrapper>.description-wrapper h1 {
+    margin: 110px 0 0 0;
+    font-size: 2.1em;
+  }
+
+  .main-wrapper>.description-wrapper button {
+    font-size: 1.1em;
+  }
+
+  .main-wrapper>.description-wrapper>.social-container {
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
